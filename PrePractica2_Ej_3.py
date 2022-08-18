@@ -6,4 +6,17 @@
 
 #INICIO
 
+print("Ingrese dos números")
+division = 0
+n1=int(input())
+n2=int(input())
+
+try:
+    division = n1 / n2
+except ZeroDivisionError as exception:
+    print(f"Ocurrió un error | {exception}")
+
+if division != 0:
+    print("La division es: ", division)
+
 #FIN
