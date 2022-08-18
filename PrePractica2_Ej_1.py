@@ -3,6 +3,7 @@
 #Nota : Hacerlo con la función max(a,b) y luego con una comparación
 
 #INICIO
-
-
+a=int(input("Escribe un numero: "))
+b=int(input("Escribe otro numero: "))
+print("El mayor es: " + str(max(a,b)) )
 #FIN

@@ -5,5 +5,16 @@
 
 
 #INICIO
+from logging import exception
 
+
+a=int(input("Escribe un numero: "))
+b=int(input("Escribe otro numero: "))
+try:
+    division=a/b
+except ZeroDivisionError:
+        print(f"No puede dividirse por 0 | {exception}")
+        division=0
+else: 
+    print("La division es: " + str(division))
 #FIN
