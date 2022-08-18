@@ -4,4 +4,23 @@
 
 #INICIO
 
+listaOriginal = []
+listaImpar = []
+
+while True:
+    print("Ingrese un numero distinto de cero ")
+    valor = int(input())
+    if valor != 0:
+        listaOriginal.append(valor)
+    else:
+        break
+
+for numero in listaOriginal:
+    if numero % 2 != 0:
+        listaImpar.append(numero)
+    
+       
+print(listaOriginal)
+print(listaImpar)
+
 #FIN
