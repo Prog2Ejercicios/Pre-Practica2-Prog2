@@ -6,11 +6,9 @@ Consideraciones:
 -El commit debe de contener como descripción "Grupo X - Comision Y", siendo X el numero del grupo e Y la comisión
 -Completar con los integrantes del grupo en este README de la siguiente forma :
 
-Grupo X - Comisión Y, integrantes:
+Grupo 2 - Comisión 3, integrantes:
 
-- Legajo XXXXX, Nombre y apellido.
-- Legajo YYYYY, Nombre y apellido.
-.
-.
-.
-.
+- Legajo 50640, Nicolas Casa.
+- Legajo 50484, Ulises Aguirre.
+- Legajo 50539, Azul Cura.
+
