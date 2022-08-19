@@ -4,5 +4,11 @@
 
 #INICIO
 
+print("Ingrese 2 numeros")
+a=int(input("Numero 1: "))
+b=int(input("Numero 2: "))
+
+print(max(a,b))
+
 
 #FIN
