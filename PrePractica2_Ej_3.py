@@ -6,4 +6,9 @@
 
 #INICIO
 
+try:
+    a = 1 / 0
+except ZeroDivisionError as exception:
+    print(f"No puede dividirse por cero | {exception}")
+
 #FIN
