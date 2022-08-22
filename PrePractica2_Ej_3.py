@@ -5,5 +5,14 @@
 
 
 #INICIO
+from logging import exception
 
+print("Ingrese dos números para una división:")
+num1=float(input())
+num2=float(input())
+try:
+    resultado=num1/num2
+    print("El resultado de la división es:", resultado)
+except ZeroDivisionError as exception:
+    print(f"No se puede dividir por 0 | {exception}")
 #FIN
