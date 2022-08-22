@@ -5,5 +5,13 @@
 
 
 #INICIO
+try:
+    print("Ingrese dos numeros")
+    a=int(input())    
+    b=int(input())
+    resultado=a/b
+    print(resultado)
+except ZeroDivisionError as exception:    
+    print(f"Ha ocurrido un error | {exception}") 
 
 #FIN
