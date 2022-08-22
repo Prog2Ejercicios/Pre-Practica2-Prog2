@@ -4,4 +4,26 @@
 
 #INICIO
 
+
+lista = []
+
+while (True):
+    
+    print("Ingrese 6 numeros: ")    
+    lista.append(input())
+    if len(lista) == 6:
+        break
+    
+print(lista)    
+
+impares = []
+
+for i in lista:
+    if i % 2 != 0:
+        impares.append(i)
+print(impares)
+
+
+
+
 #FIN
