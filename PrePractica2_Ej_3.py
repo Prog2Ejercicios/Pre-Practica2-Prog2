@@ -5,5 +5,14 @@
 
 
 #INICIO
-
+print("Ingrese dos números")
+print("Primer número:")
+numero1 = float(input())
+print("Segundo número:")
+numero2 = float(input())
+try:
+    division = numero1/numero2
+    print(f'El resultado de la división es: {division}')
+except ZeroDivisionError:
+    print("No se puede dividir por cero.")
 #FIN
