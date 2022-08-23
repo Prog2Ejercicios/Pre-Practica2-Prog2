@@ -7,3 +7,16 @@
 #INICIO
 
 #FIN
+try:
+    print("Ingrese un numero: ")
+    num1 = int(input())
+
+    print("Ingrese otro numero: ")
+    num2 = int(input())
+
+    resultado = num1 / num2
+
+except ZeroDivisionError as exception:
+ print(f"Ha ocurrido un error | {exception} ")
+
+print(f"Resultado de la division= {resultado}")
