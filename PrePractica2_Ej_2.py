@@ -8,9 +8,8 @@
 lista = []
 
 while (True):
-    
-    print("Ingrese 6 numeros: ")    
-    lista.append(input())
+       
+    lista.append(int(input("Ingrese un numero: ")))
     if len(lista) == 6:
         break
     
@@ -18,9 +17,10 @@ print(lista)
 
 impares = []
 
-for i in lista:
-    if i % 2 != 0:
-        impares.append(i)
+for i in range(6):
+    if lista[i] % 2 != 0:
+        impares.append(lista[i])
+
 print(impares)
 
 
