@@ -4,7 +4,6 @@
 
 #INICIO
 
-
 lista = []
 
 while (True):
@@ -22,8 +21,5 @@ for i in range(6):
         impares.append(lista[i])
 
 print(impares)
-
-
-
 
 #FIN
