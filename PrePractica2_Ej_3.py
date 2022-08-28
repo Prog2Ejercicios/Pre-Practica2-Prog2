@@ -5,5 +5,14 @@
 
 
 #INICIO
+primer_num = int(input("Ingrese el primer numero: "))
+segundo_num = int(input("Ingrese el segundo numero: "))
+
+division = primer_num / segundo_num
+
+try:
+    print(division)
+except ZeroDivisionError as exception:
+    print(f"Ha ocurrido un error | {exception}")
 
 #FIN
